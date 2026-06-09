@@ -51,6 +51,7 @@ COPY . /usr/share/nginx/html/
 
 EXPOSE 80
 ```
+![Image 1](images/ph6.png)
 
 ---
 
@@ -61,6 +62,7 @@ The Docker image was built using the following command:
 ```bash
 docker build -t todo-app .
 ```
+![Image 1](images/ph4.png)
 
 ---
 
@@ -71,6 +73,7 @@ docker images
 ```
 
 This command displays the created Docker image.
+![Image 1](images/ph3.png)
 
 ---
 
@@ -82,6 +85,7 @@ docker run -d -p 8080:80 --name todo-container todo-app
 
 This command starts a Docker container and maps port 8080 on the host machine to port 80 inside the container.
 
+
 ---
 
 ### Step 5: Verify Running Container
@@ -89,6 +93,7 @@ This command starts a Docker container and maps port 8080 on the host machine to
 ```bash
 docker ps
 ```
+![Image 1](images/ph5.png)
 
 This command displays all active containers.
 
@@ -101,6 +106,7 @@ Open a web browser and visit:
 ```text
 http://localhost:8080
 ```
+![Image 1](images/ph1.png)
 
 The To-Do Application will be available through the browser.
 
