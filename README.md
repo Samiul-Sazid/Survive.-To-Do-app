@@ -106,7 +106,7 @@ Open a web browser and visit:
 ```text
 http://localhost:8080
 ```
-![Image 1](images/ph1.png)
+![Image 1](images/Ph1.png)
 
 The To-Do Application will be available through the browser.
 
